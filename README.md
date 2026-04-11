@@ -1,5 +1,5 @@
 
-## 🏗️ System Authorization Boundary — Architecture Diagram
+## Bundle EHR System Authorization Boundary — Architecture Diagram
 
 ![image alt](https://github.com/edwardchibuzo/Architecture_Diagram.png/blob/3e8befe16dc23ccde741c64f452e9e84ce587782/architecture-diagram%20(2).png)
 
