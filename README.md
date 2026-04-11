@@ -1,4 +1,4 @@
-# architecture-diagram (2).png
+# https://github.com/edwardchibuzo/Architecture_Diagram.png/blob/main/architecture-diagram%20(2).png
 Architecture diagram for Bundle EHR.
 
 ## 🏗️ System Authorization Boundary — Architecture Diagram
