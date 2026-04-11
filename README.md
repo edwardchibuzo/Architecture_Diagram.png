@@ -1,7 +1,7 @@
 
 ## 🏗️ System Authorization Boundary — Architecture Diagram
 
-[BUNDLE EHR ARCHITECTURE DIAGRAM](https://imgur.com/a/xSd0T6V)
+![image alt](https://github.com/edwardchibuzo/Architecture_Diagram.png/blob/3e8befe16dc23ccde741c64f452e9e84ce587782/architecture-diagram%20(2).png)
 
 This diagram illustrates the full system authorization boundary for **Bundle EHR**, 
 a hybrid Electronic Health Record Management System operating across three distinct 
