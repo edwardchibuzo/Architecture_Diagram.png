@@ -1,4 +1,4 @@
-# Architecture_Diagram.png
+# architecture-diagram (2).png
 Architecture diagram for Bundle EHR.
 
 ## 🏗️ System Authorization Boundary — Architecture Diagram
