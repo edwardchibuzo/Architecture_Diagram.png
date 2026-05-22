@@ -7,13 +7,13 @@ This diagram illustrates the full system authorization boundary for **Bundle EHR
 a hybrid Electronic Health Record Management System operating across three distinct 
 trust zones each with clearly defined security responsibilities.
 
-** Internet / Untrusted Zone**
+Internet / Untrusted Zone
 All external traffic whether from internet users or patient mobile devices enters 
 the system exclusively through HTTPS, immediately intercepted by AWS WAF before 
 any application layer is reached. No untrusted traffic ever touches Bundle's core 
 infrastructure directly.
 
-** AWS IaaS Zone (Shared Responsibility)**
+AWS IaaS Zone (Shared Responsibility)
 Filtered traffic passes through an Application Load Balancer (ALB) before reaching 
 the Professional Web App Server the brain of the Bundle system. This tier hosts 
 all application logic and serves as the central hub for data routing. Snapshots and 
@@ -21,7 +21,7 @@ archives are automatically offloaded to **S3_BACKUP** (Amazon S3 + AWS Backup),
 ensuring encrypted, durable backups outside the primary compute layer. AWS manages 
 physical infrastructure security; Bundle owns everything above the hypervisor.
 
-** On-Premises Zone (Org-Controlled)**
+On-Premises Zone (Org-Controlled)
 The most sensitive assets the **on-prem database (PHI/PII)** and the **Audit Log 
 server** live entirely within the organisation's physical control, connected to 
 the AWS layer exclusively via **IPSec VPN tunnels** for encrypted bi-directional 
